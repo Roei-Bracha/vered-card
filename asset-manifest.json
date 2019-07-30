@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vered-card/static/css/main.a4a67473.chunk.css",
+    "main.js": "/vered-card/static/js/main.00d835a8.chunk.js",
+    "main.js.map": "/vered-card/static/js/main.00d835a8.chunk.js.map",
+    "runtime~main.js": "/vered-card/static/js/runtime~main.63f3e7a0.js",
+    "runtime~main.js.map": "/vered-card/static/js/runtime~main.63f3e7a0.js.map",
+    "static/js/2.3310f33a.chunk.js": "/vered-card/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/vered-card/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/vered-card/index.html",
+    "precache-manifest.9890b83c3e46a4dcf38baf8fc39dc333.js": "/vered-card/precache-manifest.9890b83c3e46a4dcf38baf8fc39dc333.js",
+    "service-worker.js": "/vered-card/service-worker.js",
+    "static/css/main.a4a67473.chunk.css.map": "/vered-card/static/css/main.a4a67473.chunk.css.map"
+  }
+}
