@@ -1,0 +1,60 @@
+.Header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 200, 248);
+    
+    .backgroundImage{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .profilePicContaier{
+        height: 75px;
+        .profilePic{
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: -10px;
+            width: 150px;
+            border-radius: 200px;
+            height: 150px;
+            position: relative;
+            top: -75px;
+            border:solid 5px rgb(219, 98, 179);
+        }
+    }
+    
+    .NameBanner{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        direction: rtl;
+        .name{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            .name-span{
+                font-size: 4em;
+            }
+        }
+        .terapist{
+            font-size: 2em;
+        }
+    }
+    .logo{
+        height: 75px;
+        width: 75px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+
+}
