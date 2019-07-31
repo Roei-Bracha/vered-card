@@ -7,7 +7,7 @@ const SquaresRow = ({data})=>{
     return(
         <div className={'SquaresRow'}>
             {data.map((squareData)=>{
-                return(<Square {...squareData}/>)
+                return(<Square {...squareData} key={squareData.url}/>)
             })}
         </div>
     )

@@ -5,7 +5,7 @@ const Squre = ({title,icon,url})=>{
     <div className="Squre">
         <a href={url}>
             <div className="content">
-                <img src={icon}/>
+                <img src={icon} alt={"icon"}/>
                 <h3>{title}</h3>
             </div>
         </a>

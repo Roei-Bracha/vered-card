@@ -3,7 +3,7 @@ import './Header.scss'
 
 const Header = ()=>{
     const backgroundImageUrl = '/images/pexels-photo-556663.jpeg'
-    const profilePicUrl='/images/profile.jpg'
+    const profilePicUrl='/images/profile.JPG'
     return(
     <div className="Header">
         <div className="backgroundImage"
@@ -12,7 +12,7 @@ const Header = ()=>{
             >
         </div>
         <div className='profilePicContaier'>
-            <img className='logo' src="/images/logo.png"/>
+            <img className='logo' src="/images/logo.png" alt={"logo"}/>
             <div className="profilePic"
                 style={{ backgroundImage: `url(${profilePicUrl})`}}
             >

@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="/images/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Secular+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#ffc8f8" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBme_wdv0ouO4zl8Ojwy3KXdx1Ne3tIrbE",
+        authDomain: "ebuisnescards.firebaseapp.com",
+        databaseURL: "https://ebuisnescards.firebaseio.com",
+        projectId: "ebuisnescards",
+        storageBucket: "",
+        messagingSenderId: "146988662288",
+        appId: "1:146988662288:web:eccea04bc8c9c8ef"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
